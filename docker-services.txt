@@ -1,0 +1,5 @@
+NAMES       IMAGE                           PORTS
+homepage    nginx:alpine                    0.0.0.0:8080->80/tcp, :::8080->80/tcp
+n8n         n8nio/n8n                       0.0.0.0:5678->5678/tcp, :::5678->5678/tcp
+netdata     netdata/netdata                 0.0.0.0:19999->19999/tcp, :::19999->19999/tcp
+portainer   portainer/portainer-ce:latest   8000/tcp, 9443/tcp, 0.0.0.0:9000->9000/tcp, :::9000->9000/tcp

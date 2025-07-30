@@ -1,0 +1,13 @@
+tunnel: c3a52942-a8e0-41dc-86db-8d591cae904f
+credentials-file: /etc/cloudflared/c3a52942-a8e0-41dc-86db-8d591cae904f.json
+
+ingress:
+  - hostname: home.vgnc.org
+    service: http://localhost:8080
+  - hostname: portainer.vgnc.org
+    service: http://localhost:9000
+  - hostname: netdata.vgnc.org
+    service: http://127.0.0.1:19999
+  - hostname: n8n.vgnc.org
+    service: http://localhost:5678
+  - service: http_status:404
